@@ -312,7 +312,9 @@ width: 40%;
                     /* Footer */
 footer {
 height: 100px;
-display: block;
+display: flex;
+justify-content: center;
+align-items: center;
 margin-top: 40px;
 }
 
@@ -323,6 +325,10 @@ font-size: 9px;
 text-align: center;
 font-family: Sublima;
 color: white;
+}
+
+.footer-about{
+  margin-top: 0;
 }
 
               
@@ -374,13 +380,11 @@ margin-top: 60px;
 object-fit: cover;
 }
 
-.div-img img{
-
-object-fit: cover;
-}
 
 .imgAbout{
 width: 100%;
+max-height: 450px;
+object-fit: cover;
 }
 
 .div-about p{
@@ -429,8 +433,6 @@ margin-right: 10%;
   
 .all-services, .right-services{
 height: 250px;
-margin-top: 50px;
-
 }
 
 .row-itens-services{
@@ -695,6 +697,10 @@ form [type="submit"]{
     margin-right: 2%;
     margin-left: 2%;
   }
+
+  .last-services{
+    margin-top: 40px;
+  }
   
 }
 
@@ -861,10 +867,7 @@ text-transform: uppercase;
     height: 80%;
   }
   
-  .div-about p{
-    margin-top: -80px;
-
-  }
+  
 
   .footer-about{
     display: flex;
@@ -888,16 +891,20 @@ height: 10%;
 align-items: center;
 margin: 50px 0 auto 0;
 }
+.row-itens-services{
+  margin: 0 4px 0 4px;
+}
 
 .div-img-services{
-width: 150px;
+  width: 200px;
 }
 
-#editorial{
-margin-top: 0;
+.img-services{
+  height: 200px;
 }
 
-.span-services{
+
+.span-services, .span-services2{
 font-size: 18px;
 }
 }
