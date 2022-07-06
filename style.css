@@ -389,7 +389,6 @@ object-fit: cover;
 
 .div-about p{
 width: 100%;
-margin-top: -50px;
 margin-left: 50px;
 font-size: 15px;
 margin-right: 50px;
@@ -859,12 +858,12 @@ text-transform: uppercase;
   }
 
   .div-img{
-    height: 20%;
+    height: 370px;
     margin-top: 0;
   }
 
   .imgAbout{
-    height: 80%;
+    height: 95%;
   }
   
   
